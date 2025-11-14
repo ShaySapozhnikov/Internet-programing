@@ -1,0 +1,9 @@
+/*Code by Shay Sapozhniov 
+Student ID 3193268*/
+
+/*In Circle.css, add the code so that when circle_box is applied to an element, 
+it renders as a circle by applying a border-radius of 50%. */
+
+.circle_box{
+    border-radius: 50%;
+}

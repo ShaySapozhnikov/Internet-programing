@@ -1,0 +1,39 @@
+/*Code by Shay Sapozhniov 
+Student ID 3193268*/
+
+.box_row
+{
+    /* elements should be flexboxes with a 10px gap and a 10px margin on the bottom.*/
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*The div elements inside the box rows must be:*/
+.box_row *{
+    /* 150px by 150px black squares with white text (asuming width and hight)*/
+    width: 150px;
+    height: 150px;
+    color: white;
+
+    /*Box-sizing of border-box*/
+    box-sizing: border-box;
+
+
+    /*Font-size of 24px*/
+    font-size: 24px;
+
+
+    background-color: black;
+
+
+    /*Flexboxes in which the content inside is vertically and horizontally centered*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+

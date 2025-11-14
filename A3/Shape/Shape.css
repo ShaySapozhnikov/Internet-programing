@@ -1,0 +1,7 @@
+/*Code by Shay Sapozhniov 
+Student ID 3193268*/
+
+.bordered{
+    /*add the code that ensures that bordered elements have a CSS border of 4px solid #666666*/
+    border: 4px solid #666666;
+}
